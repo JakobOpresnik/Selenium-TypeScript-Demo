@@ -10,13 +10,7 @@
     "outDir": "./dist",
     "strict": true,
     "forceConsistentCasingInFileNames": true
-    // "paths": {
-    //   "@config/*": ["config/*"],
-    //   "@lib/*": ["lib/*"],
-    //   "@pages/*": ["pages/*"],
-    // }
   },
-  "include": ["tests", "src"]
-  // "include": ["lib/**/*.ts", "pages/**/*.ts", "specs/**/*.spec.ts", "tests/**/*.test.ts"],
+  "include": ["tests", "src", "types.d.ts"]
   // "exclude": ["node_modules", "dist"]
 }

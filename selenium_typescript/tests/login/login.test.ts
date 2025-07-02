@@ -11,7 +11,7 @@ describe('Login Page', function () {
 
   context('Basic Page Components', function () {
     before(async function () {
-      driver = await new Builder().forBrowser(Browser.FIREFOX).build();
+      driver = await new Builder().forBrowser(process.env.BROWSER_NAME).build();
       loginPage = new LoginPage(driver);
       await loginPage.visitLogin();
     });
@@ -53,7 +53,7 @@ describe('Login Page', function () {
 
   context('Form Validation', function () {
     beforeEach(async function () {
-      driver = await new Builder().forBrowser(Browser.FIREFOX).build();
+      driver = await new Builder().forBrowser(process.env.BROWSER_NAME).build();
       loginPage = new LoginPage(driver);
       await loginPage.visitLogin();
     });

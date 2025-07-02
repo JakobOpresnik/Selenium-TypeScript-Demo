@@ -1,7 +1,7 @@
 import { Browser, Builder, WebDriver } from 'selenium-webdriver';
 import { expect } from 'chai';
 import { describe, it, before, after } from 'mocha';
-import { TodoListPage } from '../../pages/todo-list.page';
+import { TodoListPage } from '../../pages/todo_list.page';
 
 describe('Todo List Page', function () {
   let driver: WebDriver;
@@ -10,7 +10,7 @@ describe('Todo List Page', function () {
   this.timeout(20000);
 
   before(async () => {
-    driver = await new Builder().forBrowser(Browser.FIREFOX).build();
+    driver = await new Builder().forBrowser(process.env.BROWSER_NAME).build();
     todoListPage = new TodoListPage(driver);
     await todoListPage.visitTodoList();
   });

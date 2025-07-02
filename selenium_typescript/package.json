@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "npx tsc",
-    "pretest": "npm run build",
+    "build": "pnpm exec tsc",
+    "pretest": "pnpm run build",
     "test": "mocha",
-    "pretest:chrome": "npm run build",
+    "pretest:chrome": "pnpm run build",
     "test:chrome": "cross-env BROWSER_ENV=true BROWSER_NAME=chrome mocha",
-    "pretest:firefox": "npm run build",
+    "pretest:firefox": "pnpm run build",
     "test:firefox": "cross-env BROWSER_ENV=true BROWSER_NAME=firefox mocha"
   },
   "keywords": [
