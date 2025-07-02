@@ -83,6 +83,12 @@ pnpm run test:firefox
 |── tests/                      # Tests
 ```
 
+## Test Report Example
+
+Found inside `/selenium_typescript/reports/` folder.
+
+![Test report example](images/test_report_example.png)
+
 ## Learn More
 
 To learn more about Selenium and used libraries, take a look at the following resources:
