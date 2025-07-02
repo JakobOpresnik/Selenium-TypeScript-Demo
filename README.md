@@ -17,6 +17,9 @@ pnpm install
 # install FE dependencies
 cd frontend
 pnpm install
+
+# navigate back to project root
+cd ..
 ```
 
 Create `.env` file inside `/selenium_typescript`:
@@ -24,6 +27,8 @@ Create `.env` file inside `/selenium_typescript`:
 ```bash
 cd selenium_typescript
 touch .env
+
+cd ..
 ```
 
 Paste this into the `.env` file you just created:
@@ -38,6 +43,8 @@ Run the FE:
 ```bash
 cd frontend
 pnpm run dev
+
+cd ..
 ```
 
 Specify URL, where FE is running, inside `selenium_typescript/config/index.ts`, like so:
