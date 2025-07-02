@@ -87,7 +87,7 @@ pnpm run test:firefox
 
 Found inside `/selenium_typescript/reports/` folder.
 
-![Test report example](images/test_report_example.png)
+![Test report example](images/test_report_example.PNG)
 
 ## Learn More
 
