@@ -1,7 +1,10 @@
-import { Browser, Builder, WebDriver } from 'selenium-webdriver';
+import { Builder, WebDriver } from 'selenium-webdriver';
 import { expect } from 'chai';
 import { describe, it, beforeEach, before, afterEach, after } from 'mocha';
 import { LoginPage } from '../../pages/login.page';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 describe('Login Page', function () {
   let driver: WebDriver;

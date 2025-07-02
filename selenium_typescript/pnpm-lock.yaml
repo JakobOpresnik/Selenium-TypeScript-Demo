@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      dotenv:
+        specifier: ^17.0.1
+        version: 17.0.1
     devDependencies:
       '@types/chai':
         specifier: ^4.3.0
@@ -403,6 +407,10 @@ packages:
   doctrine@3.0.0:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
     engines: {node: '>=6.0.0'}
+
+  dotenv@17.0.1:
+    resolution: {integrity: sha512-GLjkduuAL7IMJg/ZnOPm9AnWKJ82mSE2tzXLaJ/6hD6DhwGfZaXG77oB8qbReyiczNxnbxQKyh0OE5mXq0bAHA==}
+    engines: {node: '>=12'}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -1416,6 +1424,8 @@ snapshots:
   doctrine@3.0.0:
     dependencies:
       esutils: 2.0.3
+
+  dotenv@17.0.1: {}
 
   emoji-regex@8.0.0: {}
 
