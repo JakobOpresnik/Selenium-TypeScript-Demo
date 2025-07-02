@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": false,
+    "outDir": "./dist",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+    // "paths": {
+    //   "@config/*": ["config/*"],
+    //   "@lib/*": ["lib/*"],
+    //   "@pages/*": ["pages/*"],
+    // }
+  },
+  "include": ["tests", "src"]
+  // "include": ["lib/**/*.ts", "pages/**/*.ts", "specs/**/*.spec.ts", "tests/**/*.test.ts"],
+  // "exclude": ["node_modules", "dist"]
+}
