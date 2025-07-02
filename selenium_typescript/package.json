@@ -19,7 +19,7 @@
     "typescript"
   ],
   "originalAuthor": "Imran Wijaya",
-  "repository": {
+  "originalRepository": {
     "type": "git",
     "url": "git+https://github.com/imranwijaya/selenium-typescript-example.git"
   },
